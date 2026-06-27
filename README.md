@@ -33,6 +33,7 @@ engine.runAndWait()
 
 | Project | Description | Key Libraries |
 |---|---|---|
+| [📁 Talikng Cartoon Recommendations](./Talikng_cartoon_recommendations/README.md) | A mini project | `pyttsx3` |
 | [🧮 Talking Calculator](./Talking_calculator/README.md) | A Python-based interactive calculator with **text-to-speech** support, allowing users to perform mathematical calculations through voice feedback and text input. | `pyttsx3`, `simpleeval` |
 
 <!-- PROJECTS_END -->
@@ -76,6 +77,9 @@ pip install pyttsx3 simpleeval
 Python_text-to-speech-pyttsx3_project_programs/
 │
 ├── README.md                          ← You are here (parent README)
+│
+├── Talikng_cartoon_recommendations/
+│   └── Talking_cartoon_recommendation.py  ← Talikng Cartoon Recommendations source code
 │
 └── Talking_calculator/
     ├── README.md  ← Talking Calculator documentation
