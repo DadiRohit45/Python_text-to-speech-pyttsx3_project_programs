@@ -33,7 +33,7 @@ engine.runAndWait()
 
 | Project | Description | Key Libraries |
 |---|---|---|
-| [📁 Talikng Cartoon Recommendations](./Talikng_cartoon_recommendations/README.md) | A mini project | `pyttsx3` |
+| [🐼 Talikng Cartoon Recommendations](./Talikng_cartoon_recommendations/README.md) | A Python-based interactive cartoon recommender with **text-to-speech** support, allowing users to check what type cartoon they can watch through voice feedback and text input. | `pyttsx3` |
 | [🧮 Talking Calculator](./Talking_calculator/README.md) | A Python-based interactive calculator with **text-to-speech** support, allowing users to perform mathematical calculations through voice feedback and text input. | `pyttsx3`, `simpleeval` |
 
 <!-- PROJECTS_END -->
