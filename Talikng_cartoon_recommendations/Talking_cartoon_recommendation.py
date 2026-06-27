@@ -6,7 +6,7 @@ def speak(text):
     engine.runAndWait()
 speak("welcome to ai cartoon recomender")
 speak("enter your age")
-age=input()
+age=int(input())
 speak("specify your mood (happy,sad,bored,excited)?")
 mood=input()
 speak("what type of cartoons you like basically (action,funny,adventure)")
