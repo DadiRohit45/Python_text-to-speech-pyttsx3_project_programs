@@ -1,2 +1,92 @@
-# Python_text-to-speech-pyttsx3-_project_programs
-Python projects using the pyttsx3 (text-to speech) module 
+# 🔊 pyttsx3 Mini Projects
+
+A collection of mini projects built using **Python and pyttsx3** — a text-to-speech library that works completely offline. Each project is self-contained in its own folder with its own code and documentation.
+
+---
+
+## 📋 Table of Contents
+
+- [About pyttsx3](#about-pyttsx3)
+- [Projects](#projects)
+- [Requirements](#requirements)
+- [How to Run Any Project](#how-to-run-any-project)
+- [Repository Structure](#repository-structure)
+- [Author](#author)
+
+---
+
+## 🔊 About pyttsx3
+
+`pyttsx3` is a Python text-to-speech conversion library that works **offline** — no internet connection needed. It supports multiple voices, adjustable speech rate, and volume control, making it perfect for building voice-enabled desktop applications.
+
+```python
+import pyttsx3
+engine = pyttsx3.init()
+engine.say("Hello, I can speak!")
+engine.runAndWait()
+```
+
+---
+
+<!-- PROJECTS_START -->
+## 🗂️ Projects
+
+| Project | Description | Key Libraries |
+|---|---|---|
+| [🔊 Voice Calculator](./voice-calculator/README.md) | A voice-enabled calculator with safe expression evaluation and chained calculation support | `pyttsx3`, `simpleeval` |
+
+<!-- PROJECTS_END -->
+
+---
+
+<!-- REQUIREMENTS_START -->
+## 🛠️ Requirements
+
+- Python 3.6+
+- [`pyttsx3`](https://pypi.org/project/pyttsx3/) — offline text-to-speech engine
+- [`simpleeval`](https://pypi.org/project/simpleeval/) — safe math expression evaluator
+
+Install all dependencies at once:
+```bash
+pip install pyttsx3 simpleeval
+```
+<!-- REQUIREMENTS_END -->
+---
+
+## 🚀 How to Run Any Project
+
+1. Navigate into the project folder:
+   ```bash
+   cd voice-calculator
+   ```
+
+2. Run the Python file:
+   ```bash
+   python calculator.py
+   ```
+
+---
+<!-- STRUCTURE_START -->
+## 📁 Repository Structure
+
+```
+pyttsx3-projects/
+│
+├── README.md                          ← You are here (parent README)
+│
+└── voice-calculator/
+    ├── calculator.py                  ← Voice calculator source code
+    └── README.md                      ← Voice calculator documentation
+```
+<!-- STRUCTURE_END -->
+---
+
+## 👤 Author
+
+- **Dadi Rohit** — [DadiRohit45](https://github.com/DadiRohit45)
+
+---
+
+## 📄 License
+
+This repository is open-source and available under the [MIT License](LICENSE).
