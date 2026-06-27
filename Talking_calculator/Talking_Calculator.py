@@ -1,5 +1,5 @@
 import pyttsx3
-
+from simpleeval import simple_eval
 def speak(text):
     engine=pyttsx3.init() 
     voices=engine.getProperty('voices')
@@ -38,7 +38,7 @@ def see(m):
 def calculator(s): 
     while(True):  
         try:
-            v=str(eval(s))
+            v=str(simple_eval(s))
             speak("the answer for the given expression: "+v) 
             result=see(v) 
             if result is None:
