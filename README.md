@@ -33,7 +33,7 @@ engine.runAndWait()
 
 | Project | Description | Key Libraries |
 |---|---|---|
-| [📁 Ai Animal Detector](./AI_animal_detector/README.md) | A mini project | `pyttsx3` |
+| [📁 Ai Animal Detector](./AI_animal_detector/README.md) | A fun, voice-interactive Python application that guesses an animal based on your answers to simple yes/no questions — with text-to-speech narration powered by `pyttsx3`. | `pyttsx3` |
 | [📁 Talikng Cartoon Recommendations](./Talikng_cartoon_recommendations/README.md) | A voice-interactive Python application that recommends cartoons based on your age, mood, and preferred cartoon genre — with text-to-speech powered by `pyttsx3`. | `pyttsx3` |
 | [🧮 Talking Calculator](./Talking_calculator/README.md) | A Python-based interactive calculator with **text-to-speech** support, allowing users to perform mathematical calculations through voice feedback and text input. | `pyttsx3`, `simpleeval` |
 
@@ -80,7 +80,8 @@ Python_text-to-speech-pyttsx3_project_programs/
 ├── README.md                          ← You are here (parent README)
 │
 ├── AI_animal_detector/
-│   └── AI_animal detector.py  ← Ai Animal Detector source code
+│   ├── AI_animal detector.py  ← Ai Animal Detector source code
+│   └── README.md  ← Ai Animal Detector documentation
 │
 ├── Talikng_cartoon_recommendations/
 │   ├── README.md  ← Talikng Cartoon Recommendations documentation
