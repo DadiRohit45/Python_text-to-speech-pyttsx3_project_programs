@@ -56,10 +56,10 @@ Once launched, the program will speak and prompt you for the following inputs:
 
 | Age | Mood | Type | Recommendation |
 |-----|------|------|----------------|
-| 18+ | happy | action | Jackie Chan Adventures |
-| 18+ | sad | funny | Shinchan |
-| 18+ | bored | adventure | Doraemon |
-| Under 18 | any | any | Recommends Anime |
+| Under 18 | happy | action | Jackie Chan Adventures |
+| Under 18 | sad | funny | Shinchan |
+| Under 18 | bored | adventure | Doraemon |
+| 18+ | any | any | Recommends Anime |
 
 ---
 
