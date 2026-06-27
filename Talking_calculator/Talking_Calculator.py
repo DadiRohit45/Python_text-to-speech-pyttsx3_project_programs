@@ -43,6 +43,8 @@ def calculator(s):
             result=see(v) 
             if result is None:
                 break
+            else:
+                s=result
         except Exception as e:
             speak("error found"+str(e))
             s=""   
