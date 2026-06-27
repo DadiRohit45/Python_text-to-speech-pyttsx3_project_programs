@@ -33,7 +33,7 @@ engine.runAndWait()
 
 | Project | Description | Key Libraries |
 |---|---|---|
-| [🔊 Voice Calculator](./voice-calculator/README.md) | A voice-enabled calculator with safe expression evaluation and chained calculation support | `pyttsx3`, `simpleeval` |
+| [🧮 Talking Calculator](./Talking_calculator/README.md) | A Python-based interactive calculator with **text-to-speech** support, allowing users to perform mathematical calculations through voice feedback and text input. | `pyttsx3`, `simpleeval` |
 
 <!-- PROJECTS_END -->
 
@@ -43,13 +43,16 @@ engine.runAndWait()
 ## 🛠️ Requirements
 
 - Python 3.6+
+
+**Install via pip:**
 - [`pyttsx3`](https://pypi.org/project/pyttsx3/) — offline text-to-speech engine
 - [`simpleeval`](https://pypi.org/project/simpleeval/) — safe math expression evaluator
 
-Install all dependencies at once:
+Install all at once:
 ```bash
 pip install pyttsx3 simpleeval
 ```
+
 <!-- REQUIREMENTS_END -->
 ---
 
@@ -69,15 +72,16 @@ pip install pyttsx3 simpleeval
 <!-- STRUCTURE_START -->
 ## 📁 Repository Structure
 
-```
-pyttsx3-projects/
+```text
+Python_text-to-speech-pyttsx3_project_programs/
 │
 ├── README.md                          ← You are here (parent README)
 │
-└── voice-calculator/
-    ├── calculator.py                  ← Voice calculator source code
-    └── README.md                      ← Voice calculator documentation
+└── Talking_calculator/
+    ├── README.md  ← Talking Calculator documentation
+    └── Talking_Calculator.py  ← Talking Calculator source code
 ```
+
 <!-- STRUCTURE_END -->
 ---
 
