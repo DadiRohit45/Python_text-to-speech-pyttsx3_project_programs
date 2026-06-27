@@ -105,7 +105,6 @@ main()
 - Requires a working audio output device for speech to function.
 - Voice index `voices[1]` assumes a female/secondary voice is available — may vary by OS.
 - The `see()` function uses recursion for invalid answers, which could stack overflow on repeated bad input.
-- `eval()` poses a security risk with untrusted input (see [Security Note](#security-note)).
 
 ---
 
