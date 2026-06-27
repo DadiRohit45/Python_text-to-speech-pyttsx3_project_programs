@@ -86,15 +86,17 @@ A Python-based interactive calculator with **text-to-speech** support, allowing 
 ### Flow Diagram
 
 ```
-main()
-  └─ User says "yes"
-       └─ Enter expression
-            └─ calculator(s)
-                 ├─ Evaluates expression
-                 ├─ Speaks result
-                 └─ see(v)
-                      ├─ "yes" → append new expression → back to calculator
-                      └─ "no"  → exit
+start
+  └─ main() asks: interested in calculations?
+       ├─ "no"  → thank you message → exits ✅
+       ├─ other → ask again (loop) ✅
+       └─ "yes" → enter expression
+                    └─ calculator() evaluates it
+                         ├─ speaks result
+                         └─ see() asks: continue?
+                              ├─ "yes" → enter more → loops back ✅
+                              ├─ "no"  → thank you → exits ✅
+                              └─ other → ask again (loop) ✅
 ```
 
 ---
