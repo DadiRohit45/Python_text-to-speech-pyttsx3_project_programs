@@ -22,19 +22,20 @@ def speak1(emoji,text):
     
 speak1("📟","welcome to our easiest calculator to access") 
 def see(m):
-    speak("do you want to continue , answer in yes or no") 
-    c=input("").lower() 
-    if(c=="yes"): 
-        speak("continue the calculation")
-        d=input()
-        m+=d   
-        return m
-    elif(c=='no'):
-        speak("thank you , for using our calculator for calculation") 
-        return None
-    else:
-        speak("answer in yes or no only")
-        see(m)
+    while(True):
+        speak("do you want to continue , answer in yes or no") 
+        c=input("").lower() 
+        if(c=="yes"): 
+            speak("continue the calculation")
+            d=input()
+            m+=d   
+            return m
+        elif(c=='no'):
+            speak("thank you , for using our calculator for calculation") 
+            return None
+        else:
+            speak("answer in yes or no only")
+      
 def calculator(s): 
     while(True):  
         try:
@@ -50,17 +51,19 @@ def calculator(s):
             s=""   
             break
 def main():
-    speak("are you interested to do the mathematical calculations ,answer in yes or no:") 
-    b=input("").lower() 
-    if(b=="yes"): 
-        speak("enter the expression:") 
-        a=input()
-        s=""
-        s+=a
-        calculator(s) 
-    elif(b=='no'):
-        speak("thank you , if you need to access again just run the program")
-    else:
-        speak("answer in yes or no only")
-        main()
+    while(True):
+        speak("are you interested to do the mathematical calculations ,answer in yes or no:") 
+        b=input("").lower() 
+        if(b=="yes"): 
+            speak("enter the expression:") 
+            a=input()
+            s=""
+            s+=a
+            calculator(s) 
+            break
+        elif(b=='no'):
+            speak("thank you , if you need to access again just run the program")
+            break
+        else:
+            speak("answer in yes or no only")
 main()
