@@ -108,14 +108,6 @@ main()
 
 ---
 
-## 🔮 Future Improvements
-- [ ] Add a GUI interface (e.g., Tkinter)
-- [ ] Support voice input using `speech_recognition`
-- [ ] Add history of past calculations
-- [ ] Allow selecting male/female voice from settings
-- [ ] Convert recursion in `see()` to a loop to prevent stack issues
-
----
 
 ## 📄 License
 
